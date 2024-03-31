@@ -26,7 +26,7 @@ if valor < 10 or valor % 2 == 0:
 else:
     print("O valor não satisfaz as condições.")
 # Neste exemplo, a mensagem "O valor é menor que 10 ou é par." será impressa se
-# o valor for menor que 10 ou for par (ou seja, o resto da divisão por 2 
+# o valor for menor que 10 ou for par (ou seja, o resto da divisão por 2
 # igual a 0).
 
 # Combinando com Expressões Complexas:
