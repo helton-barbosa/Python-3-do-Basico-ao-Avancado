@@ -10,6 +10,7 @@ numero_str = input('Vou dobrar o número que você digitar: ')
 # else:
 #     print('Isso não é um número')
 
+# essa não é a forma correta de usar o try/except, mas deixarei assim
 try:
     print(f'STR: {numero_str}')
     numero_float = float(numero_str)
