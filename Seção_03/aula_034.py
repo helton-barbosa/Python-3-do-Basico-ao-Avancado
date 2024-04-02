@@ -7,7 +7,7 @@
 # Usando while:
 # A sintaxe básica do while é:
 # while condicao:
-    # Bloco de código a ser executado enquanto a condição for verdadeira
+# Bloco de código a ser executado enquanto a condição for verdadeira
 
 contador = 0
 while contador < 5:
