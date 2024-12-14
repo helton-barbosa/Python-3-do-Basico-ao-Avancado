@@ -17,46 +17,64 @@ misturado = [10, 'abc', True, 3.14]  # Criando uma lista mista
 # índice específico.
 
 # Exemplo:
-frutas = ['maçã', 'banana', 'laranja', 'tamarindo', 'pitanga', 'maracujá']
-verduras = ['abóbora', 'batata', 'beterraba']
+frutas = ['maçã', 'ata', 'laranja', 'limão', 'caqui', 'cajá']
+verduras = ['jiló', 'ata', 'cebola', 'couve', 'jiló', 'ata']
 frutas[1] = 'abacate'
-print(frutas)
+
+
+print(f"Lista de frutas: {frutas}")
 
 # Adicionando e Removendo Elementos:
+# Exemplo:
+
 # - append(): Adiciona um elemento ao final da lista.
+frutas.append('morango')
+print(f"append: {frutas}")
+
 # - insert(): Insere um elemento em uma posição específica.
+frutas.insert(1, 'caju')
+print(f"insert: {frutas}")
+
 # - remove(): Remove o primeiro elemento com o valor especificado.
+frutas.remove('cajá')
+print(f"remove: {frutas}")
+
 # - pop(): Remove e retorna o elemento em uma posição específica.
+frutas.pop(0)
+print(f"pop: {frutas}")
+
+# - index(): Retorna o índice da primeira ocorrência de um valor
+print(f"index do elemento 'laranja': {frutas.index("laranja")}")
+
+
 # - del: Remove um elemento de uma lista ou toda a lista.
+del frutas[3]
+print(f"del: {frutas}")
+
 # - extend(): É usado para adicionar todos os elementos de uma lista ao final
 # de outra lista.
+frutas.extend(verduras)
+print(f"extend: {frutas}")
+
 # - +: É usado para concatenar duas listas, ou seja, criar uma nova lista
 # contendo os elementos das duas listas
-# - clear(): É usado para remover todos os elementos de uma lista.
-# Exemplo:
-frutas.append('morango')
-print(frutas)
-
-frutas.insert(1, 'abacate')
-print(frutas)
-
-frutas.remove('maracujá')
-print(frutas)
-
-frutas.pop(0)
-print(frutas)
-
-del frutas[3]
-print(frutas)
-
-frutas.extend(verduras)
-print(frutas)
-
 alimento = frutas + verduras
-print(alimento)
+print(f"+: {alimento}")
 
+# - count(): Retorna o número de ocorrências de um valor da lista
+print(f"Quantidade de vezes de 'ata': {alimento.count("ata")}")
+
+# - sort(): Ordena a lista
+alimento.sort()
+print(f"Ordem crescente: {alimento}")
+
+# - reverse(): Ordem reversa da lista
+alimento.reverse()
+print(f"Ordem decrescente: {alimento}")
+
+# - clear(): É usado para remover todos os elementos de uma lista.
 alimento.clear()
-print(alimento)
+print(f"clear: {alimento}")
 
 """
 Notas adicionais:

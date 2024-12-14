@@ -22,4 +22,3 @@
 print(12, 34, sep='-', end='\r\n') # Pula uma linha
 print(56, 78, sep="-", end='\r\n\r\n') # Pula duas linhas
 print('Fim')
-

@@ -16,4 +16,3 @@ print("Meu sobrenome é \"Barbosa\"")
 
 # r
 print(r"Helton \"Lampião\"")
-
