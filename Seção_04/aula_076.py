@@ -22,12 +22,12 @@
 # }
 # pessoa = dict(nome='Luiz Otávio', sobrenome='Miranda')
 pessoa = {
-    'nome': 'Helton',
-    'sobrenome': 'Barbosa',
-    'idade': 38,
-    'altura': 1.79,
+    'nome': 'Rosilene',
+    'sobrenome': 'Ferreira Xavier Barbosa',
+    'idade': 42,
+    'altura': 1.65,
     'endereços': [
-        {'rua': 'tal tal', 'número': 123},
+        {'rua': 'Begônias Quadra 12 Lote 21', 'número': 21},
         {'rua': 'outra rua', 'número': 321},
     ],
 }
@@ -38,4 +38,5 @@ print(pessoa['sobrenome'])
 print()
 
 for chave in pessoa:
-    print(chave, pessoa[chave])
+    print(f'{chave}: {pessoa[chave]}')
+

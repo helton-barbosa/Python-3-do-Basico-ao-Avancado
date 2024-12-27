@@ -1,14 +1,10 @@
 # Manipulando chaves e valores em dicionários
 pessoa = {}
 
-##
-##
-
 chave = 'nome'
 
 pessoa[chave] = 'Helton'
 pessoa['sobrenome'] = 'Barbosa'
-
 
 print(pessoa[chave])
 
