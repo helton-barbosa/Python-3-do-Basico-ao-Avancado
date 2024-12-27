@@ -20,7 +20,7 @@ def imprimir(a, b, c):
     print(a, b, c)
 
 
-imprimir(1, 2, 3)
+imprimir('Helton', 'Barbosa', 'Santos Ferreira')
 imprimir(4, 5, 6)
 
 
@@ -33,3 +33,4 @@ saudacao('Rose Barbosa')
 saudacao('João Victor')
 saudacao('Rebecca')
 saudacao()
+
