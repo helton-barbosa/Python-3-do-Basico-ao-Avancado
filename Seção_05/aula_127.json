@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Helton",
+    "idade": 40,
+    "cor": "preta"
+  },
+  {
+    "nome": "Rose",
+    "idade": 43,
+    "cor": "parda"
+  },
+  {
+    "nome": "José",
+    "idade": 60,
+    "cor": "branca"
+  }
+]
