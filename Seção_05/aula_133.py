@@ -1,4 +1,4 @@
-# Encapsulamento (modificadores de acesso: publuic, private e protected)
+# Encapsulament (modificadores de acesso: publuic, private e protected)
 # Python não tem modificadores de acesso
 # Mas podemos seguir as seguintes convenções:
 #  (sem underline) = public (público)
