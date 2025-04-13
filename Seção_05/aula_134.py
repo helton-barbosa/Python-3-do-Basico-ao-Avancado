@@ -8,7 +8,7 @@
 class Escritor:
     def __init__(self, nome):
         self.nome = nome
-        self._ferramenta = None # Ele pode usar uma ferramenta, mas começa sem
+        self._ferramenta = None
 
     @property
     def ferramenta(self):
@@ -24,15 +24,11 @@ class FerramentaDeEscrever:
         self.nome = nome
 
     def escrever(self):
-        return f'{self.nome} está escrevendo.'
+        return f'{self.nome} está escrevendo'
 
 
 escritor = Escritor('Helton')
-caneta = FerramentaDeEscrever('Caneta azul')
-escritor.ferramenta = caneta
-print(caneta.escrever())
-
-lapis = FerramentaDeEscrever('Lápis')
-escritor.ferramenta = lapis
-print(lapis.escrever())
+pincel = FerramentaDeEscrever('Pincel')
+escritor.ferramenta = pincel
+print(escritor.ferramenta.escrever())
 
