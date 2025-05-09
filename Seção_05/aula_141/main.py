@@ -1,6 +1,8 @@
-from log import LogFileMixing, LogPrintMixing
+from eletronico import Smartphone
 
-lf = LogFileMixing()
-lp = LogPrintMixing()
-lf.log_error('Teste usando Main')
-lp.log_success('Teste usando Main')
+galaxy_s = Smartphone('Galaxy S')
+iphone_14 = Smartphone('iPhone 14')
+galaxy_s.ligar()
+galaxy_s.desligar()
+iphone_14.desligar()
+iphone_14.ligar()
